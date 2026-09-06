@@ -1,0 +1,183 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Your Name — Your Role</title>
+  <meta name="description" content="Portfolio of Your Name, a Your Role." />
+  <meta property="og:title" content="Your Name — Your Role" />
+  <meta property="og:description" content="Portfolio of Your Name, a Your Role." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://example.com/" />
+  <meta property="og:image" content="https://example.com/images/project-placeholder.svg" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Your Name — Your Role" />
+  <meta name="twitter:description" content="Portfolio of Your Name, a Your Role." />
+  <meta name="twitter:image" content="https://example.com/images/project-placeholder.svg" />
+
+  <link rel="icon" href="./images/favicon.svg" type="image/svg+xml" />
+  <link rel="stylesheet" href="./css/styles.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,700;9..144,900&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet" />
+</head>
+<body>
+  <header class="site-header" id="site-header">
+    <div class="header-inner">
+      <a href="#hero" class="brand">Your Name</a>
+      <nav class="main-nav" id="main-nav" aria-label="Main navigation">
+        <ul>
+          <li><a href="#about" class="nav-link">About</a></li>
+          <li><a href="#experience" class="nav-link">Experience</a></li>
+          <li><a href="#projects" class="nav-link">Projects</a></li>
+          <li><a href="#skills" class="nav-link">Skills</a></li>
+          <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+      </nav>
+      <button class="nav-toggle" id="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <section id="hero" class="hero">
+      <div class="hero-inner">
+        <p class="hero-eyebrow">Your Role</p>
+        <h1 class="hero-name">Your<br />Name</h1>
+        <p class="hero-value">Write one clear sentence about what you build and why it matters.</p>
+        <div class="hero-cta">
+          <a href="./resume.md" class="btn btn--primary" target="_blank" rel="noopener">Read résumé</a>
+          <a href="#contact" class="btn btn--secondary">Get in touch</a>
+        </div>
+        <div class="hero-links">
+          <a href="https://github.com/your-handle" class="hero-link" target="_blank" rel="noopener">GitHub</a>
+          <span aria-hidden="true">·</span>
+          <a href="https://www.linkedin.com/in/your-handle/" class="hero-link" target="_blank" rel="noopener">LinkedIn</a>
+          <span aria-hidden="true">·</span>
+          <a href="mailto:you@example.com" class="hero-link">you@example.com</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="section about">
+      <div class="section-inner">
+        <h2 class="section-title">About</h2>
+        <div class="about-grid">
+          <div class="about-text">
+            <p>Introduce yourself, your specialty, and the work you want to do next. Keep this focused on the context a visitor needs before reading your experience.</p>
+            <p>Use this space for perspective that does not fit in a résumé: how you work, problems you care about, or the outcomes you pursue.</p>
+          </div>
+          <div class="about-image">
+            <img src="./images/avatar-placeholder.svg" alt="Portrait placeholder for Your Name" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="experience" class="section experience">
+      <div class="section-inner">
+        <div class="section-header">
+          <h2 class="section-title">Experience</h2>
+          <a href="./resume.md" class="resume-link" target="_blank" rel="noopener">Full résumé ↗</a>
+        </div>
+        <ol class="experience-list">
+          <li class="experience-item">
+            <div class="exp-meta">
+              <span class="exp-date">2023 — Present</span>
+              <span class="exp-company">Company Name</span>
+            </div>
+            <div class="exp-content">
+              <h3 class="exp-title">Your Role</h3>
+              <p>Describe scope, decisions, and measurable impact. Replace this sample with specific evidence of your work.</p>
+            </div>
+          </li>
+          <li class="experience-item">
+            <div class="exp-meta">
+              <span class="exp-date">2020 — 2023</span>
+              <span class="exp-company">Previous Company</span>
+            </div>
+            <div class="exp-content">
+              <h3 class="exp-title">Previous Role</h3>
+              <p>Keep strongest and most relevant work prominent. Add, remove, or reorder entries to fit your story.</p>
+            </div>
+          </li>
+        </ol>
+        <div class="education">
+          <h3 class="subsection-title">Education</h3>
+          <div class="edu-item">
+            <div class="exp-meta">
+              <span class="exp-date">2016 — 2020</span>
+              <span class="exp-company">University Name</span>
+            </div>
+            <p class="edu-degree">Degree or credential</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="section projects">
+      <div class="section-inner">
+        <h2 class="section-title">Projects</h2>
+        <ul class="project-grid">
+          <li class="project-card">
+            <a href="https://github.com/your-handle/project-one" target="_blank" rel="noopener" class="project-link">
+              <div class="project-img-wrap"><img src="./images/project-placeholder.svg" alt="Project One placeholder" loading="lazy" /></div>
+              <div class="project-info">
+                <h3 class="project-name">Project One</h3>
+                <p class="project-desc">State problem, approach, and result. Link to a live demo or source when public.</p>
+                <ul class="project-tags"><li>Technology</li><li>Domain</li></ul>
+              </div>
+            </a>
+          </li>
+          <li class="project-card">
+            <a href="https://github.com/your-handle/project-two" target="_blank" rel="noopener" class="project-link">
+              <div class="project-img-wrap"><img src="./images/project-placeholder.svg" alt="Project Two placeholder" loading="lazy" /></div>
+              <div class="project-info">
+                <h3 class="project-name">Project Two</h3>
+                <p class="project-desc">Use real screenshots or custom artwork instead of stock images when possible.</p>
+                <ul class="project-tags"><li>Technology</li><li>Domain</li></ul>
+              </div>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="skills" class="section skills">
+      <div class="section-inner">
+        <h2 class="section-title">Skills</h2>
+        <dl class="skills-grid">
+          <div class="skill-group"><dt>Languages</dt><dd>Language One, Language Two, Language Three</dd></div>
+          <div class="skill-group"><dt>Frameworks</dt><dd>Framework One, Framework Two, Framework Three</dd></div>
+          <div class="skill-group"><dt>Infrastructure</dt><dd>Platform One, Platform Two, Platform Three</dd></div>
+          <div class="skill-group"><dt>Specialties</dt><dd>Specialty One, Specialty Two, Specialty Three</dd></div>
+        </dl>
+      </div>
+    </section>
+
+    <section id="contact" class="section contact">
+      <div class="section-inner">
+        <h2 class="section-title">Get in touch</h2>
+        <p class="contact-intro">Tell visitors what kinds of conversations or opportunities you welcome.</p>
+        <div class="contact-info">
+          <p class="contact-email"><a href="mailto:you@example.com">you@example.com</a></p>
+          <ul class="contact-links">
+            <li><a href="https://github.com/your-handle" target="_blank" rel="noopener">GitHub ↗</a></li>
+            <li><a href="https://www.linkedin.com/in/your-handle/" target="_blank" rel="noopener">LinkedIn ↗</a></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <a href="#hero" class="brand">Your Name</a>
+      <p class="footer-location">City, Country · <a href="mailto:you@example.com">you@example.com</a></p>
+    </div>
+  </footer>
+
+  <script src="./js/scripts.min.js"></script>
+</body>
+</html>
